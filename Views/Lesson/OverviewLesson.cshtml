@@ -1,0 +1,184 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@{
+    ViewData["Title"] = "Overview - Data Loader";
+}
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Poppins', Arial, sans-serif;
+        background-color: #ffffff;
+        color: #000000;
+    }
+
+    .navbar, nav {
+        display: none !important;
+    }
+
+    .page-container {
+        display: flex;
+        height: 100vh;
+        position: relative;
+    }
+
+    .nav-bar {
+        width: 350px;
+        height: 100vh;
+        background-color: #2AA74A;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 40px;
+        box-sizing: border-box;
+        position: fixed;
+        left: 0;
+        top: 0;
+    }
+
+    .logo {
+        width: 130px;
+        height: auto;
+        position: absolute;
+        top: 0px;
+        right: 20px;
+        z-index: 10;
+    }
+
+    .nav-title {
+        font-size: 30px;
+        font-weight: 700;
+        color: #FFF;
+        margin-bottom: 30px;
+        padding-left: 20px;
+    }
+
+    .nav-item {
+        font-size: 18px;
+        font-weight: 600;
+        color: #FFF;
+        padding-left: 30px;
+        margin-bottom: 10px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+        .nav-item:hover {
+            color: #000;
+        }
+
+    .nav-sub-item {
+        font-size: 14px;
+        font-weight: 400;
+        color: #FFF;
+        padding-left: 50px;
+        margin-bottom: 5px;
+    }
+
+    /* Make Overview section more prominent */
+    .nav-item-overview {
+        background-color: #218C3C; /* New color to highlight Overview */
+        font-weight: 700;
+    }
+
+    .content {
+        flex: 1;
+        padding: 40px;
+        box-sizing: border-box;
+        height: 100vh;
+        overflow-y: auto;
+        margin-left: 350px;
+    }
+
+    .pdf-container {
+        width: 710px;
+        height: 400px;
+        margin-bottom: 30px;
+        border-radius: 30px;
+        border: 2px solid #2AA74A;
+        background-color: #D9D9D9;
+        overflow: auto;
+        margin-top: 30px;
+    }
+
+        .pdf-container iframe {
+            width: 100%;
+            height: 100%;
+            border-radius: 30px;
+        }
+
+    .next-button {
+        width: 181px;
+        height: 55px;
+        border-radius: 30px;
+        background: #2AA74A;
+        color: #FFF;
+        font-size: 24px;
+        font-weight: 500;
+        text-align: center;
+        line-height: normal;
+        display: inline-block;
+        cursor: pointer;
+        text-decoration: none;
+        padding: 15px;
+        margin-top: 30px; /* Moved button up */
+        margin-left: auto;
+        margin-right: 0;
+        position: absolute;
+        transition: all 0.3s ease-in-out;
+        top: 460px; /* Adjusted to make the button slightly higher */
+        right: 20px;
+    }
+
+        .next-button:hover {
+            background: #218C3C;
+            transform: scale(1.05);
+            color: #FFF;
+        }
+
+    footer {
+        display: none;
+    }
+</style>
+
+<div class="page-container">
+    <div class="nav-bar">
+        <div class="nav-title">DataLoader</div>
+        <!-- Highlighted Overview item in the sidebar -->
+        <div class="nav-item nav-item-overview">Overview</div>
+        <div class="nav-sub-item">Introduction to Data Loaders</div>
+        <div class="nav-sub-item">Why They Matter</div>
+
+        <div class="nav-item">Core Concepts</div>
+        <div class="nav-sub-item">What is a Data Loader?</div>
+        <div class="nav-sub-item">Key Features</div>
+
+        <div class="nav-item">Architecture</div>
+        <div class="nav-sub-item">Components</div>
+        <div class="nav-sub-item">Workflow</div>
+
+        <div class="nav-item">Implementation</div>
+        <div class="nav-sub-item">Tools & Libraries</div>
+        <div class="nav-sub-item">Code Examples</div>
+
+        <div class="nav-item">Challenges & Solutions</div>
+        <div class="nav-sub-item">Common Issues</div>
+        <div class="nav-sub-item">Best Practices</div>
+
+        <div class="nav-item">Use Cases</div>
+        <div class="nav-sub-item">Machine Learning</div>
+        <div class="nav-sub-item">Data Pipelines</div>
+    </div>
+
+    <div class="content">
+        <div class="pdf-container">
+            <iframe src="\documents\Overview.pdf" frameborder="0"></iframe>
+        </div>
+
+        <a href="/Lesson/CoreConcepts" class="next-button">Next</a>
+    </div>
+
+    <img src="/images/logo2.png" alt="DotLearn Logo" class="logo">
+</div>

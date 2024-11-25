@@ -1,0 +1,114 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<style>
+    /* General Styling */
+    body {
+        margin: 0;
+        font-family: 'Poppins', Arial, sans-serif;
+        background-color: #ffffff;
+        color: #000000;
+    }
+
+    /* Welcome Page Container */
+    .welcome-page {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        height: 100vh;
+        padding: 40px;
+        box-sizing: border-box;
+        position: relative;
+    }
+
+    /* Logo */
+    .logo {
+        width: 130px;
+        height: auto;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
+    /* Content Wrapper */
+    .content {
+        max-width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /* Welcome Title */
+    .welcome-title {
+        font-size: 65px;
+        font-weight: 700;
+        color: #2AA74A;
+        margin: 0 0 15px;
+    }
+
+    /* Welcome Description */
+    .welcome-description {
+        font-size: 20px;
+        font-weight: 400;
+        color: #000;
+        line-height: 1.6;
+        margin: 0 0 25px;
+    }
+
+    /* Button */
+    .start-button {
+        display: inline-block;
+        width: 220px;
+        height: 50px;
+        text-align: center;
+        color: #FFF;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 50px;
+        border-radius: 25px;
+        background: #2AA74A;
+        text-decoration: none;
+        transition: all 0.3s ease-in-out;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .navbar, nav {
+        display: none !important;
+    }
+
+        .start-button:hover {
+            background: #218C3C;
+            transform: scale(1.05); /* Slightly enlarge button */
+            color: #FFF; /* Ensure text color stays white */
+        }
+
+    /* Illustration */
+    .illustration {
+        width: 670px;
+        height: auto;
+        margin-left: 20px; /* Adjusted slightly to the right */
+    }
+</style>
+
+<div class="welcome-page">
+    <!-- Logo -->
+    <img src="/images/logo2.png" alt="DotLearn Logo" class="logo">
+
+    <!-- Text Content -->
+    <div class="content">
+        <h1 class="welcome-title">Welcome to DotLearn!</h1>
+        <p class="welcome-description">
+            Unlock your potential with a world of learning at your fingertips. Whether you're here to gain new skills,
+            explore your passions, or achieve your academic goals.
+        </p>
+        <a href="/Lesson/Start" class="start-button">Start Now</a>
+    </div>
+
+    <!-- Illustration -->
+    <img src="/images/Capture d'écran 2024-11-24 211202.png" alt="Learning Illustration" class="illustration">
+</div>
