@@ -28,3 +28,4 @@ C:\Users\oumaima rhaya\source\repos\DotLearn\DotLearn\obj\Debug\net8.0\refint\Do
 C:\Users\oumaima rhaya\source\repos\DotLearn\DotLearn\obj\Debug\net8.0\DotLearn.pdb
 C:\Users\oumaima rhaya\source\repos\DotLearn\DotLearn\obj\Debug\net8.0\DotLearn.genruntimeconfig.cache
 C:\Users\oumaima rhaya\source\repos\DotLearn\DotLearn\obj\Debug\net8.0\ref\DotLearn.dll
+C:\Users\oumaima rhaya\source\repos\DotLearn\DotLearn\obj\Debug\net8.0\DotLearn.sourcelink.json

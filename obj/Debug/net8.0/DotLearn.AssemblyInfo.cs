@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DotLearn")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25ca725af94ca45a1ab28172c222ae2b4b3b653c")]
 [assembly: System.Reflection.AssemblyProductAttribute("DotLearn")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DotLearn")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

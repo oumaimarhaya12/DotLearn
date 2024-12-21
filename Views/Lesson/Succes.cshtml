@@ -1,0 +1,201 @@
+﻿@{
+    ViewData["Title"] = "Congratulations - Data Loader";
+}
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Poppins', Arial, sans-serif;
+        background-color: #ffffff;
+        color: #000000;
+    }
+
+    .navbar, nav {
+        display: none !important;
+    }
+
+    .page-container {
+        display: flex;
+        height: 100vh;
+        position: relative;
+    }
+
+    .nav-bar {
+        width: 350px;
+        height: 100vh;
+        background-color: #2AA74A;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 40px;
+        box-sizing: border-box;
+        position: fixed;
+        left: 0;
+        top: 0;
+    }
+
+    .logo {
+        width: 130px;
+        height: auto;
+        position: absolute;
+        top: 0px;
+        right: 20px;
+        z-index: 10;
+    }
+
+    .nav-title {
+        font-size: 30px;
+        font-weight: 700;
+        color: #FFF;
+        margin-bottom: 30px;
+        padding-left: 20px;
+    }
+
+    .nav-item {
+        font-size: 18px;
+        font-weight: 600;
+        color: #FFF;
+        padding-left: 30px;
+        margin-bottom: 10px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+        .nav-item:hover {
+            color: #000;
+        }
+
+    .nav-sub-item {
+        font-size: 14px;
+        font-weight: 400;
+        color: #FFF;
+        padding-left: 50px;
+        margin-bottom: 5px;
+    }
+
+    .content {
+        flex: 1;
+        padding: 40px;
+        box-sizing: border-box;
+        height: 100vh;
+        overflow-y: auto;
+        margin-left: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; /* Center content horizontally */
+    }
+
+    .congratulations-message {
+        color: #2AA74A;
+        font-family: 'Poppins', Arial, sans-serif;
+        font-size: 40px; /* Reduced the font size */
+        font-weight: 600;
+        line-height: 40px;
+        text-align: left; /* Changed to left align */
+        margin-bottom: 20px;
+    }
+
+    .info-message {
+        color: #000;
+        font-family: 'Poppins', Arial, sans-serif;
+        font-size: 20px; /* Reduced the font size */
+        font-weight: 500;
+        line-height: 40px;
+        text-align: left; /* Changed to left align */
+        margin-bottom: 40px;
+    }
+
+    .take-test-button {
+        width: 280px;
+        height: 55px;
+        border-radius: 30px;
+        background: #2AA74A;
+        color: #FFF;
+        font-size: 24px;
+        font-weight: 500;
+        text-align: center;
+        line-height: normal;
+        display: inline-block;
+        cursor: pointer;
+        text-decoration: none;
+        padding: 15px;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: 0;
+        position: absolute;
+        transition: all 0.3s ease-in-out;
+        top: 680px;
+        right: 20px;
+    }
+
+        .take-test-button:hover {
+            background: #218C3C;
+            transform: scale(1.05);
+            color: #FFF;
+        }
+
+    .congratulations-image {
+        width: 300px;
+        height: auto;
+        margin-right: 20px; /* Add space between image and text */
+    }
+
+    .content-wrapper {
+        display: flex;
+        align-items: center; /* Align the image and text horizontally */
+        justify-content: center; /* Center the image and text */
+        flex-direction: row;
+    }
+
+    footer {
+        display: none;
+    }
+</style>
+
+<div class="page-container">
+    <div class="nav-bar">
+        <div class="nav-title">DataLoader</div>
+        <div class="nav-item">Overview</div>
+        <div class="nav-sub-item">Introduction to Data Loaders</div>
+        <div class="nav-sub-item">Why They Matter</div>
+
+        <div class="nav-item">Core Concepts</div>
+        <div class="nav-sub-item">What is a Data Loader?</div>
+        <div class="nav-sub-item">Key Features</div>
+
+        <div class="nav-item">Architecture</div>
+        <div class="nav-sub-item">Components</div>
+        <div class="nav-sub-item">Workflow</div>
+
+        <div class="nav-item">Implementation</div>
+        <div class="nav-sub-item">Tools & Libraries</div>
+        <div class="nav-sub-item">Code Examples</div>
+
+        <div class="nav-item">Challenges & Solutions</div>
+        <div class="nav-sub-item">Common Issues</div>
+        <div class="nav-sub-item">Best Practices</div>
+
+        <div class="nav-item nav-item-use-cases">Use Cases</div>
+        <div class="nav-sub-item">Machine Learning</div>
+        <div class="nav-sub-item">Data Pipelines</div>
+    </div>
+
+    <div class="content">
+        <div class="content-wrapper">
+            <div class="congratulations-message">
+                Congratulations!
+            </div>
+            <img src="/images/congrats.png" alt="Congratulations Image" class="congratulations-image">
+        </div>
+        <div class="info-message">
+            You’ve successfully completed the course and demonstrated your knowledge of data loaders.
+            Your hard work has paid off! You’ve earned your certificate of achievement.
+            Click the button below to download your certificate and showcase your accomplishment.
+        </div>
+
+        <a href="/Lesson/Download" class="take-test-button">Download Certificate</a>
+    </div>
+
+    <img src="/images/logo2.png" alt="DotLearn Logo" class="logo">
+</div>

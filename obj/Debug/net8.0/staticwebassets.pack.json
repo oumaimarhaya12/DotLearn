@@ -5,8 +5,20 @@
       "PackagePath": "staticwebassets\\DotLearn.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\oumaima rhaya\\source\\repos\\DotLearn\\DotLearn\\wwwroot\\Certificate.pdf",
+      "PackagePath": "staticwebassets\\Certificate.pdf"
+    },
+    {
       "Id": "C:\\Users\\oumaima rhaya\\source\\repos\\DotLearn\\DotLearn\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\oumaima rhaya\\source\\repos\\DotLearn\\DotLearn\\wwwroot\\documents\\Core.pdf",
+      "PackagePath": "staticwebassets\\documents\\Core.pdf"
+    },
+    {
+      "Id": "C:\\Users\\oumaima rhaya\\source\\repos\\DotLearn\\DotLearn\\wwwroot\\documents\\DataLoaers-1.pdf",
+      "PackagePath": "staticwebassets\\documents\\DataLoaers-1.pdf"
     },
     {
       "Id": "C:\\Users\\oumaima rhaya\\source\\repos\\DotLearn\\DotLearn\\wwwroot\\documents\\INTRO (1).pdf",
@@ -17,12 +29,20 @@
       "PackagePath": "staticwebassets\\documents\\Overview.pdf"
     },
     {
+      "Id": "C:\\Users\\oumaima rhaya\\source\\repos\\DotLearn\\DotLearn\\wwwroot\\documents\\certificate-3.pdf",
+      "PackagePath": "staticwebassets\\documents\\certificate-3.pdf"
+    },
+    {
       "Id": "C:\\Users\\oumaima rhaya\\source\\repos\\DotLearn\\DotLearn\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
       "Id": "C:\\Users\\oumaima rhaya\\source\\repos\\DotLearn\\DotLearn\\wwwroot\\images\\Capture d'écran 2024-11-24 211202.png",
       "PackagePath": "staticwebassets\\images\\Capture d'écran 2024-11-24 211202.png"
+    },
+    {
+      "Id": "C:\\Users\\oumaima rhaya\\source\\repos\\DotLearn\\DotLearn\\wwwroot\\images\\congrats.png",
+      "PackagePath": "staticwebassets\\images\\congrats.png"
     },
     {
       "Id": "C:\\Users\\oumaima rhaya\\source\\repos\\DotLearn\\DotLearn\\wwwroot\\images\\logo2.png",
@@ -259,6 +279,30 @@
     {
       "Id": "C:\\Users\\oumaima rhaya\\source\\repos\\DotLearn\\DotLearn\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\oumaima rhaya\\source\\repos\\DotLearn\\DotLearn\\wwwroot\\videos\\Architecture.mp4",
+      "PackagePath": "staticwebassets\\videos\\Architecture.mp4"
+    },
+    {
+      "Id": "C:\\Users\\oumaima rhaya\\source\\repos\\DotLearn\\DotLearn\\wwwroot\\videos\\Challenges And Solutions.mp4",
+      "PackagePath": "staticwebassets\\videos\\Challenges And Solutions.mp4"
+    },
+    {
+      "Id": "C:\\Users\\oumaima rhaya\\source\\repos\\DotLearn\\DotLearn\\wwwroot\\videos\\Core Concepts.mp4",
+      "PackagePath": "staticwebassets\\videos\\Core Concepts.mp4"
+    },
+    {
+      "Id": "C:\\Users\\oumaima rhaya\\source\\repos\\DotLearn\\DotLearn\\wwwroot\\videos\\Implimentation.mp4",
+      "PackagePath": "staticwebassets\\videos\\Implimentation.mp4"
+    },
+    {
+      "Id": "C:\\Users\\oumaima rhaya\\source\\repos\\DotLearn\\DotLearn\\wwwroot\\videos\\Overview.mp4",
+      "PackagePath": "staticwebassets\\videos\\Overview.mp4"
+    },
+    {
+      "Id": "C:\\Users\\oumaima rhaya\\source\\repos\\DotLearn\\DotLearn\\wwwroot\\videos\\Use Cases.mp4",
+      "PackagePath": "staticwebassets\\videos\\Use Cases.mp4"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DotLearn.Microsoft.AspNetCore.StaticWebAssets.props",

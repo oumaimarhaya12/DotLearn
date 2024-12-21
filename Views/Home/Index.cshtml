@@ -57,8 +57,14 @@
         margin: 0 0 25px;
     }
 
+    /* Button Container */
+    .button-container {
+        display: flex;
+        gap: 20px; /* Space between buttons */
+    }
+
     /* Button */
-    .start-button {
+    .button {
         display: inline-block;
         width: 220px;
         height: 50px;
@@ -73,6 +79,22 @@
         transition: all 0.3s ease-in-out;
     }
 
+        .button:hover {
+            background: #218C3C;
+            transform: scale(1.05);
+        }
+
+        /* Prevent anchor text from turning blue */
+        .button:link, .button:visited {
+            text-decoration: none; /* Removes underline */
+            color: #FFF; /* Keeps text white */
+        }
+
+        .button:hover {
+            background: #218C3C;
+            transform: scale(1.05); /* Slightly enlarge button */
+        }
+
     footer {
         display: none;
     }
@@ -80,12 +102,6 @@
     .navbar, nav {
         display: none !important;
     }
-
-        .start-button:hover {
-            background: #218C3C;
-            transform: scale(1.05); /* Slightly enlarge button */
-            color: #FFF; /* Ensure text color stays white */
-        }
 
     /* Illustration */
     .illustration {
@@ -106,7 +122,12 @@
             Unlock your potential with a world of learning at your fingertips. Whether you're here to gain new skills,
             explore your passions, or achieve your academic goals.
         </p>
-        <a href="/Lesson/Start" class="start-button">Start Now</a>
+
+        <!-- Button Container -->
+        <div class="button-container">
+            <a href="/Lesson/Start" class="button">Start Now</a>
+            <a href="/documents/DataLoaers-1.pdf" class="button" download>Download Doc</a>
+        </div>
     </div>
 
     <!-- Illustration -->
